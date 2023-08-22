@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 
 # Load the dataset
 url = "https://raw.githubusercontent.com/saurabhtayal/Diabetic-Patients-Readmission-Prediction/main/diabetic_data.csv"
-data = pd.read_csv(url)
+data = pd.read_excel(cleaneddata.xsls)
 
 # 1. Data Cleaning
 data.dropna(inplace=True)  # Remove rows with missing values
